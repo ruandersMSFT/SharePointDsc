@@ -398,7 +398,7 @@ function Set-TargetResource
             {
                 $NewComponentParams = @{
                     SearchTopology        = $newTopology
-                    SearchServiceInstance = $AllSearchServiceInstances.$ComponentToAdd
+                    SearchServiceInstance = $ComponentToAdd
                 }
                 switch ($componentTypes.$CurrentSearchProperty)
                 {
